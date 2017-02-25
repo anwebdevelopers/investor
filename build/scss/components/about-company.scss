@@ -1,0 +1,30 @@
+
+.about-company {
+	background-color: #000;
+	background-image: url(../img/bg-about-company.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 0;
+}
+.about-company__wrapper {
+	@extend .container;
+	padding: 40px 0 60px 0;
+}
+.about-company__title {
+	text-align: center;
+	h2 {
+		display: inline-block;
+		margin: 5px 0 20px 0;
+		font-size: 30px;
+		text-transform: none;
+		color: $white;
+		border-bottom: 1px solid $main-color;
+	}
+}
+.about-company__text {
+	p {
+		margin: 15px 0;
+		color: $white;
+		line-height: 20px;
+	}
+}

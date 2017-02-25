@@ -1,0 +1,151 @@
+@import "bourbon";
+@import "components/vars.scss";
+@import "html/libs/animate/animate.scss";
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('../fonts/Raleway Regular'),
+    local('../Raleway-Regular'),
+    url('../fonts/ralewayregular.woff2') format('woff2'),
+    url('../fonts/ralewayregular.woff') format('woff'),
+    url('../fonts/ralewayregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('../fonts/Raleway Medium'),
+    local('../fonts/Raleway-Medium'),
+    url('../fonts/ralewaymedium.woff2') format('woff2'),
+    url('../fonts/ralewaymedium.woff') format('woff'),
+    url('../fonts/ralewaymedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('../fonts/Raleway SemiBold'),
+    local('../fonts/Raleway-SemiBold'),
+    url('../fonts/ralewaysemibold.woff2') format('woff2'),
+    url('../fonts/ralewaysemibold.woff') format('woff'),
+    url('../fonts/ralewaysemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('../fonts/Raleway Bold'),
+    local('../fonts/Raleway-Bold'),
+    url('../fonts/ralewaybold.woff2') format('woff2'),
+    url('../fonts/ralewaybold.woff') format('woff'),
+    url('../fonts/ralewaybold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('../fonts/Raleway ExtraBold'),
+    local('../fonts/Raleway-ExtraBold'),
+    url('../fonts/ralewayextrabold.woff2') format('woff2'),
+    url('../fonts/ralewayextrabold.woff') format('woff'),
+    url('../fonts/ralewayextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('../fonts/Raleway Black'),
+    local('../fonts/Raleway-Black'),
+    url('../fonts/ralewayblack.woff2') format('woff2'),
+    url('../fonts/ralewayblack.woff') format('woff'),
+    url('../fonts/ralewayblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+//Custom Styles Here
+//first page
+@import "components/normalize.scss";
+@import "components/header.scss";
+@import "components/program.scss";
+@import "components/text-content.scss";
+@import "components/text-content.scss";
+@import "components/advantages.scss";
+@import "components/reviews.scss";
+@import "components/footer.scss";
+//second page
+@import "components/mission.scss";
+@import "components/build.scss";
+@import "components/positions.scss";
+@import "components/about-company.scss";
+@import "components/certificates.scss";
+//third page
+@import "components/begin.scss";
+
+//@import "build/scss/components/magnific-popup.scss";
+
+//ALWAYS END
+//@import "components/media.scss";
+
+//Load Libs SASS
+
+//@import "html/libs/superfish/dist/css/superfish";
+@import "html/libs/font-awesome/scss/font-awesome.scss";
+//@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";
+//@import "html/libs/magnific-popup/dist/magnific-popup";
+
+@media only screen and (max-device-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}

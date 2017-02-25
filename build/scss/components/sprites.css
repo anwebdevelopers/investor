@@ -1,0 +1,231 @@
+.sprites, .icon-btn-1, .advantages-3, .advantages-4, .advantages-5, .advantages-6, .begin-1, .advantages-1, .advantages-2, .program-1, .program-2, .program-3, .program-4, .program-5, .payment-1, .payment-2, .payment-3, .payment-4, .payment-5, .payment-6, .payment-7, .payment-8, .payment-9, .payment-10, .payment-11, .begin-2, .begin-3, .begin-4, .begin-5, .begin-element, .icon-fb, .icon-tw, .icon-vk, .icon-btn-2, .icon-btn-3{
+	background: url(sprites.png) no-repeat;
+}
+
+.sprites{
+	background-position: 0 -366.952880859375px ;
+	width: 457px;
+	height: 256px;
+}
+
+.icon-btn-1{
+	background-position: -296.95159912109375px -215.97015380859375px ;
+	width: 23px;
+	height: 24px;
+}
+
+.advantages-3{
+	background-position: -147.99041748046875px -6.983642578125px ;
+	width: 65px;
+	height: 59px;
+}
+
+.advantages-4{
+	background-position: -219.97955322265625px -5.9766845703125px ;
+	width: 65px;
+	height: 59px;
+}
+
+.advantages-5{
+	background-position: -288.970703125px -5.97125244140625px ;
+	width: 65px;
+	height: 59px;
+}
+
+.advantages-6{
+	background-position: -358.979736328125px -7.969207763671875px ;
+	width: 65px;
+	height: 59px;
+}
+
+.begin-1{
+	background-position: -62.95965576171875px -220.97634887695312px ;
+	width: 22px;
+	height: 22px;
+}
+
+.advantages-1{
+	background-position: -6.97088623046875px -5.979888916015625px ;
+	width: 65px;
+	height: 59px;
+}
+
+.advantages-2{
+	background-position: -76.97540283203125px -8.98291015625px ;
+	width: 65px;
+	height: 59px;
+}
+
+.build-1{
+	background-position: -5.959054687500043px -248.98214721679688px ;
+	width: 73px;
+	height: 59px;
+}
+
+.build-2{
+	background-position: -80.98157666015629px -244.98348999023438px ;
+	width: 57px;
+	height: 66px;
+}
+
+.build-3{
+	background-position: -150.98590087890625px -251.97369384765625px ;
+	width: 54px;
+	height: 56px;
+}
+.program-1{
+	background-position: 0 -76.94293212890625px ;
+	width: 74px;
+	height: 69px;
+}
+
+.program-2{
+	background-position: -78.9783935546875px -74.9752197265625px ;
+	width: 74px;
+	height: 69px;
+}
+
+.program-3{
+	background-position: -157.9793701171875px -76.97161865234375px ;
+	width: 74px;
+	height: 69px;
+}
+
+.program-4{
+	background-position: -236.98309326171875px -75.97540283203125px ;
+	width: 74px;
+	height: 69px;
+}
+
+.program-5{
+	background-position: -317.969970703125px -75.96340942382812px ;
+	width: 74px;
+	height: 69px;
+}
+
+.payment-1{
+	background-position: 0 -153.9815673828125px ;
+	width: 85px;
+	height: 19px;
+}
+
+.payment-2{
+	background-position: -90.96697998046875px -157.94500732421875px ;
+	width: 76px;
+	height: 13px;
+}
+
+.payment-3{
+	background-position: -173.97900390625px -152.98101806640625px ;
+	width: 65px;
+	height: 21px;
+}
+
+.payment-4{
+	background-position: -246.97222900390625px -152.95944213867188px ;
+	width: 114px;
+	height: 24px;
+}
+
+.payment-5{
+	background-position: -370.98968505859375px -151.9815673828125px ;
+	width: 49px;
+	height: 25px;
+}
+
+.payment-6{
+	background-position: -1.96807861328125px -181.97802734375px ;
+	width: 58px;
+	height: 26px;
+}
+
+.payment-7{
+	background-position: -68.98553466796875px -180.9703369140625px ;
+	width: 94px;
+	height: 26px;
+}
+
+.payment-8{
+	background-position: -171.97711181640625px -186.96600341796875px ;
+	width: 63px;
+	height: 15px;
+}
+
+.payment-9{
+	background-position: -239.9713134765625px -186.96527099609375px ;
+	width: 77px;
+	height: 21px;
+}
+
+.payment-10{
+	background-position: -323.9696044921875px -188.96337890625px ;
+	width: 108px;
+	height: 23px;
+}
+
+.payment-11{
+	background-position: -2.96697998046875px -220.9581298828125px ;
+	width: 49px;
+	height: 17px;
+}
+
+.begin-2{
+	background-position: -94.98779296875px -219.98590087890625px ;
+	width: 21px;
+	height: 20px;
+}
+
+.begin-3{
+	background-position: -126.966796875px -219.97784423828125px ;
+	width: 21px;
+	height: 21px;
+}
+
+.begin-4{
+	background-position: -156.96490478515625px -222.98065185546875px ;
+	width: 27px;
+	height: 16px;
+}
+
+.begin-5{
+	background-position: -190.9793701171875px -219.9849853515625px ;
+	width: 31px;
+	height: 20px;
+}
+
+.begin-element{
+	background-position: -406.97430419921875px -80.96957397460938px ;
+	width: 15px;
+	height: 55px;
+}
+
+.icon-fb{
+	background-position: -228.95550537109375px -221.98760986328125px ;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-tw{
+	background-position: -249.9713134765625px -221.9808349609375px ;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-vk{
+	background-position: -271.96356201171875px -222.97314453125px ;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-btn-2{
+	background-position: -328.98724365234375px -216.983642578125px ;
+	width: 28px;
+	height: 23px;
+}
+
+.icon-btn-3{
+	background-position: -364.96417236328125px -216.96392822265625px ;
+	width: 22px;
+	height: 25px;
+}
+

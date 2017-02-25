@@ -1,0 +1,65 @@
+.mission {
+	background-color: #fff;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.mission__wrapper {
+	@extend .container;
+	@extend .clearfix;
+	padding: 40px 0 60px 0;
+}
+.misssion__column-left,
+.misssion__column-right {
+	width: 490px;
+	text-align: center;
+	h2 {
+		display: inline-block;
+		margin: 20px 0 10px 0;
+		font-size: 30px;
+		text-transform: none;
+		line-height: 30px;
+		border-bottom: 1px solid lighten($accent-color, 20%);
+		span {
+			font-weight: 600;
+		}
+	}
+	p {
+		margin: 15px 0;
+		text-align: left;
+		line-height: 20px;
+	}
+}
+.misssion__column-left {
+	float: left;
+	position: relative;
+	&:after {
+		content: '';
+		position: absolute;
+		top: 150px;
+		right: -1px;
+		width: 2px;
+		height: 2px;
+		border-radius: 50%;
+		border: 2px solid $main-color;
+		background-color: #fff;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		top: 80px;
+		right: 1px;
+		width: 2px;
+		height: 150px;
+		background-color: $main-color;
+	}
+	p {
+		padding: 0 70px 0 35px;
+	}
+}
+.misssion__column-right {
+	float: right;
+	p {
+		padding: 0 35px 0 70px;
+	}
+}

@@ -1,0 +1,28 @@
+.text-content {
+	background-color: #111;
+	background-image: url(../img/bg-content-text.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 0;
+}
+.text-content__wrapper {
+	@extend .container;
+	padding: 45px 0;
+	text-align: center;
+	h3 {
+		display: inline-block;
+		margin: 8px 0;
+		color: $white;
+		font-size: 30px;
+		text-transform: none;
+		border-bottom: 1px solid $main-color;
+	}
+	p {
+		text-align: left;
+		color: $white;
+		margin: 10px 0 18px 0;
+		font-size: 14px;
+		animation-duration: 1.5s;
+
+	}
+}
